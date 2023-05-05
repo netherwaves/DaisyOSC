@@ -1,0 +1,21 @@
+{
+  "name": "DaisyOSC",
+  "version": "0.0.1",
+  "description": "OSC library, compatible with Daisy Seed STM32 architecture",
+  "authors": [
+    {
+      "name": "avery claire",
+      "email": "avery@netherwaves.com",
+      "url": "httsp://netherwaves.com",
+      "maintainer": true
+    }
+  ],
+
+  "frameworks": ["stm32cube"],
+  "platforms": ["ststm32"],
+
+  "build": {
+    "srcDir": "./src",
+    "flags": ["-Iinc"]
+  }
+}
