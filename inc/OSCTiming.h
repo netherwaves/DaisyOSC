@@ -4,8 +4,8 @@
 
 typedef struct
 {
-  uint32_t seconds;
-  uint32_t fractionofseconds;
+    uint32_t seconds;
+    uint32_t fractionofseconds;
 } osctime_t;
 
 osctime_t oscTime();
